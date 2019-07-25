@@ -1,0 +1,14 @@
+{
+  "name": "test-ts-module",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "lerna": "^3.2.1"
+  },
+  "scripts": {
+    "bootstrap": "lerna bootstrap",
+    "build": "lerna run build",
+    "clean": "lerna clean"
+  }
+}
